@@ -157,9 +157,9 @@ body {
 	color: #4a545b;
 	text-decoration: none;
 	background: url(../img/sprite.png) no-repeat;
-	background-position: -714px -5px;
+	background-position: -848px -5px;
 	padding-left: 24px; 
 }
 .lock .lock-inner:hover{
-	background-position: -744px -5px;
+	background-position: -878px -5px;
 }
