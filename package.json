@@ -1,0 +1,14 @@
+{
+  "name": "st",
+  "version": "0.0.1",
+  "description": "LSH",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maxim-Lysak/homework.git"
+  },
+  "author": "Maxim Lysak <maxim.hasp1@gmail.com>",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0"
+  }
+}
