@@ -48,8 +48,7 @@ body {
 .header-logo {
 	width: 243px;
     height: 42px;
-	background: url(../img/sprite.png) no-repeat;
-    background-position: -5px -5px;
+	background: url(../img/sprite.png) -5px -5px no-repeat;
     margin-top: 39px;
 	float: left;
 }
@@ -157,11 +156,30 @@ body {
 	margin-left: 16px;
 	padding: 19px 0px;
 }
-.navigation .navigation-link:hover{
+.navigation .navigation-link:hover {
 	color: #3ba8c0;
 }
+/* contact */
+.contacts {
+	overflow: hidden;
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
+.contacts .contacts-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.contacts .contacts-item.email:before  {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/sprite.png) -908px -5px no-repeat;
+    float: left;
+    margin: 6px 0 0 0;
 
-
+}
 
 
 /* footer attach down */
@@ -208,8 +226,7 @@ body {
 	line-height: 2.2;
 	color: #4a545b;
 	text-decoration: none;
-	background: url(../img/sprite.png) no-repeat;
-	background-position: -848px -5px;
+	background: url(../img/sprite.png) -848px -5px no-repeat;
 	padding-left: 24px; 
 }
 .lock .lock-inner:hover{
