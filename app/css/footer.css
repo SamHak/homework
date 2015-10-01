@@ -1,0 +1,51 @@
+/* footer */
+.footer-block {
+	height: 80px;
+	margin-top: -80px; 
+	background: #eff3f7;
+	font-family: 'fira_sanslight';
+	color: #4a545d;
+}
+.footer-container {
+	max-width: 970px;
+	min-width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.lock {
+	width: 80px;
+	height: 40px;
+	float: left;
+}
+.lock-link {
+	font-family: 'fira_sansbook';
+	font-size: 16px;
+	line-height: 25px;
+	color: #4a545b;
+	text-decoration: none;
+}
+.lock-link:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 40px;
+	background: url(../img/spritesheet.png) -595px -5px no-repeat;
+	margin: 0;
+    padding: 0;
+}
+.lock-link:hover:before  {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 40px;
+	background: url(../img/spritesheet.png) -625px -5px no-repeat;
+	margin: 0;
+    padding: 0;
+}
+.copyright{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 13px;
+	float: center;
+}

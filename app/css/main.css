@@ -1,3 +1,6 @@
+@import url("header.css");
+@import url("footer.css");
+
 /* global */
 html {
 	height: 100%;
@@ -8,181 +11,6 @@ body {
 	font: normal 1em 'fira_sanslight';
 	color: #4a545d;
 }
-.container {
-	width: 960px;
-	margin: 0 auto;
-}
-.text-center {
-	text-align: center;
-}
-.pull-left {
-	float: left;
-}
-.pull-right {
-	float: right;
-}
-/* header */
-.header {
-	height: 119px;
-	background: #eff3f7;
-	position: relative;
-	margin-bottom: 39px;
-	position: relative;
-}
-.header-container {
-	max-width: 1200px;
-	min-width: 960px;
-	height: 100%;
-	margin: 0 auto;
-	position: relative;
-}
-.header:after, .footer:before {
-	content: " ";
-    display: block;
-    background: linear-gradient(to right, #edf8fc 0%,#1c667a 50%,#1c667a 50%,#edf8fc 100%);
-    height:3px;
-    margin: 0;
-    padding: 0;
-}
-/* logo */
-.header-logo {
-	width: 243px;
-    height: 42px;
-	background: url(../img/sprite.png) -5px -5px no-repeat;
-    margin-top: 39px;
-	float: left;
-}
-.header .logo-link {
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-.header .header-logo-text {
-	position: absolute;
-	left: -9999px;
-}
-/* socials block */
-.socials {
-	margin: 0;
-	margin-top: 39px;
-	padding: 0;
-	min-width: 260px;
-	float: right;
-}
-.socials .socials-item {
-	list-style: none;
-	display: inline-block;
-	height: 47px;
-	width: 47px;
-	margin-left: 19px;
-}
-.socials .socials-item:first-child {
-	margin-left: 0;
-}
-.socials .socials-link {
-	display: block;
-	height: 100%;
-	width: 100%;
-	text-indent: -9999px;
-	background: url(../img/sprite.png) no-repeat;
-}
-.socials .socials-link.vk {
-	background-position: -258px -5px; 
-}
-.socials .socials-link.vk:hover {
-	background-position: -315px -5px; 
-}
-.socials .socials-link.tw {
-	background-position: -372px -5px;
-}
-.socials .socials-link.tw:hover {
-	background-position: -429px -5px;
-}
-.socials .socials-link.fb {
-	background-position: -486px -5px;
-}
-.socials .socials-link.fb:hover {
-	background-position: -543px -5px;
-}
-.socials .socials-link.gt {
-	background-position: -600px -5px;
-}
-.socials .socials-link.gt:hover {
-	background-position: -657px -5px;
-}
-/* saidebar */
-.sidebar {
-	width: 250px;
-	float: left;
-}
-/* navigation */
-.navigation {
-	overflow: hidden;
-	background: #eff3f7;
-	border-radius: 4px;
-	margin-bottom: 26px;
-}
-.navigation .navigation-list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.navigation .navigation-item {
-	border-top: 2px solid #3ba8c0;
-	margin: 0 11px;
-}
-.navigation .navigation-item:first-child {
-	border-top: none;
-}
-/* navigation current */
-.navigation .navigation-item.current {
-	background: #3ba8c0;
-	margin: 0;
-	border-bottom: none;
-	padding-left: 11px;
-	margin-bottom: -2px;  
-}
-.navigation .navigation-item.current .navigation-link {
-	color: #f9fafb;
-	font-size: 22px;
-}
-/* navigation current end */
-.navigation .navigation-link {
-	font-family: 'fira_sansbook';
-	display: block;
-	font-size: 20px;
-	text-decoration: none;
-	color: #959aa8;
-	margin-left: 16px;
-	padding: 19px 0px;
-}
-.navigation .navigation-link:hover {
-	color: #3ba8c0;
-}
-/* contact */
-.contacts {
-	overflow: hidden;
-	background: #eff3f7;
-	border-radius: 4px;
-	margin-bottom: 26px;
-}
-.contacts .contacts-list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.contacts .contacts-item.email:before  {
-    content: "";
-    width: 20px;
-    height: 20px;
-    background: url(../img/sprite.png) -908px -5px no-repeat;
-    float: left;
-    margin: 6px 0 0 0;
-
-}
-
-
-/* footer attach down */
 .wrap-site {
 	position: relative;
 	min-height: 100%;
@@ -194,41 +22,10 @@ body {
 	height:  80px;
 	display: block;
 }
-.footer{
-	min-width: 970px;
-	height: 80px;
-	margin-top: -80px; 
-	background: #eff3f7;
-	font-family: 'fira_sanslight';
-	color: #4a545d;
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
 }
-.footer .container {
-	padding-top: 23px;
-	position: relative;
-}
-.footer .copyright{
-	margin: 0 180px;
-	padding-top: 7px;
-	text-align: center;
-	font-size: 13px;
-}
-/* login */
-.footer .lock {
-	position: absolute;
-	top: 26px;
-	left: 20px;
-}
-.lock .lock-inner {
-	display: block;
-	height: 40px;
-	font-family: 'fira_sansbook';
-	font-size: 16px;
-	line-height: 2.2;
-	color: #4a545b;
-	text-decoration: none;
-	background: url(../img/sprite.png) -848px -5px no-repeat;
-	padding-left: 24px; 
-}
-.lock .lock-inner:hover{
-	background-position: -878px -5px;
+.clearfix:after {
+    clear: both;
 }
