@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("footer.css");
+@import url("navigation.css");
 
 /* global */
 html {
@@ -20,11 +21,16 @@ body {
 .wrap-site:after {
 	content: "";
 	height:  80px;
-	display: block;
+	display:  block;
+}
+.page-content {
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 10px;
 }
 .clearfix:before,
 .clearfix:after {
-    content: " "; 
+   content: " ";
 }
 .clearfix:after {
     clear: both;

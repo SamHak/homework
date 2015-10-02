@@ -1,7 +1,7 @@
-##Установка Homework.
-*** 
-####1. git clone https://github.com/Maxim-Lysak/homework.git LSH
-####2. cd "LSH"
-####3. Bower i
-####4. npm i
-####5. gulp
+>>> Установка проекта <<<
+
+1. git clone ___git.url____ lshomework
+2. cd lshomework
+3. bower i
+4. npm i
+5. gulp

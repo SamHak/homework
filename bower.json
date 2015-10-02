@@ -1,11 +1,6 @@
 {
-  "name": "LSH",
-  "version": "0.0.1",
-  "authors": [
-    "Maxim Lysak <maxim.hasp1@gmail.com>"
-  ],
-  "description": "homework",
-  "dependencies": {
+  "name": "lshomework",
+  "devDependencies": {
     "jquery": "~2.1.4",
     "normalize-css": "normalize.css#~3.0.3",
     "modernizer": "~2.8.2"
