@@ -41,14 +41,16 @@
 	background: #eff3f7;
 	border-radius: 4px;
 	margin-bottom: 26px;
+	padding-bottom: 20px
 }
 .aboutbox .aboutbox-header {
-	font-family: 'fira_sansmedium';
+	font-family: 'fira_sansbook';
 	font-size: 27px;
 	font-weight: normal;
 	color: #3ba8c0;
 	border-bottom: 2px solid #3ba8c0;
-	margin-bottom: 0 0 23px 0;
+	margin-top: 0px;
+	margin-bottom: 23px;
 	padding: 13px 23px;
 	display: inline-block;
 }
@@ -70,4 +72,29 @@
 }
 .avatar {
 	width: 100%;
+}
+/* skills */
+.skills-list {
+	list-style: none;
+	width: 224px;
+	padding: 0;
+}
+.skills-item{
+	display:inline-block;
+	display:inline-block;
+    background-image:
+    -moz-linear-gradient(bottom, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
+    background-image:
+    -o-linear-gradient(bottom, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
+    background-image:-webkit-linear-gradient(bottom, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
+    background-image:linear-gradient(to top, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
+    border-radius:2px;
+    color:#FFF;
+    font-family:"proxima_nova_cond_semibold";
+	font-size:14px;
+    text-align:center;
+    padding:0 12px;
+    line-height:19px;
+    margin-bottom:3px;
+    margin-left:5px;
 }
