@@ -27,16 +27,7 @@
 	max-width: 218px;
 }
 
-/* VARIABLE CONTENT
-.variable-content {
-	min-width: 350px;
-    width: 650px;
-    background-color: #eff3f7;
-    border-radius: 5px;
-    margin-bottom: 27px;
-    margin-left: 0;
-    margin-right: auto;
-} */
+/* VARIABLE CONTENT */
 .aboutbox {
 	background: #eff3f7;
 	border-radius: 4px;
@@ -81,7 +72,6 @@
 }
 .skills-item{
 	display:inline-block;
-	display:inline-block;
     background-image:
     -moz-linear-gradient(bottom, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
     background-image:
@@ -90,7 +80,7 @@
     background-image:linear-gradient(to top, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
     border-radius:2px;
     color:#FFF;
-    font-family:"proxima_nova_cond_semibold";
+    font-family:"fira_sansmedium";
 	font-size:14px;
     text-align:center;
     padding:0 12px;
@@ -98,3 +88,56 @@
     margin-bottom:3px;
     margin-left:5px;
 }
+/* experience */
+.tabular-header-text {
+	font-size: 17px;
+	font-family: 'fira_sansbook';
+	color: #4a545d;
+	margin: 0px;
+	padding: 0px;
+}
+.tabular-text {
+	font-size: 15px;
+	font-family: 'fira_sanslight';
+	color: #4a545d;
+	margin: 0px;
+	padding: 0px;
+}
+.list-info {
+	list-style: none;
+	margin-left: 125px;
+	margin-top: 0;
+}
+.list-info-item {
+	margin-bottom: 20px;
+	position: relative;	
+}
+.tabular-header-text:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+    left: -69px;
+    top: 6px;
+    background: url(../img/spritesheet.png) no-repeat;
+}
+.tabular-header-text.bag:before {
+	width: 36px;
+    height: 34px;
+    background-position: -461px -5px;
+}
+.tabular-header-text.hat:before {
+    width: 42px;
+    height: 23px;
+    background-position: -507px -5px;
+    left: -69px;
+    top: 8px;
+}
+.tabular-header-text.list:before {
+	width: 26px;
+    height: 32px;
+    background-position: -559px -5px;
+    left: -60px;
+    top: 6px;
+}
+
+
