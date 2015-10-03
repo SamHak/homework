@@ -1,6 +1,7 @@
 @import url("header.css");
-@import url("footer.css");
+@import url("content-me.css");
 @import url("navigation.css");
+@import url("footer.css");
 
 /* global */
 html {
@@ -28,9 +29,14 @@ body {
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
+.variable-content{
+	width: 650px;
+	float: right;
+}
 .clearfix:before,
 .clearfix:after {
-   content: " ";
+   content: " "; 
+   display: table; 
 }
 .clearfix:after {
     clear: both;

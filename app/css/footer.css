@@ -23,7 +23,7 @@
 	color: #4a545b;
 	text-decoration: none;
 	display: block;
-	margin: 27px 0 0 0;
+	margin: 27px 0 0 70px;
 }
 .lock-link:before {
 	content: "";
@@ -32,9 +32,9 @@
 	height: 40px;
 	background: url(../img/spritesheet.png) -595px -5px no-repeat;
 	margin: 0;
-    padding: 0px 0 0 0;
+    padding: 0px;
     position: absolute;
-    left: -30px;
+    left: 40px;
     top: 23px;
 }
 .lock-link:hover:before  {
