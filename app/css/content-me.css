@@ -5,7 +5,7 @@
 .worksheet-list {
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: -3px 0 0 -20px;
 }
 .worksheet-info {
 	float: left;
@@ -32,7 +32,7 @@
 	background: #eff3f7;
 	border-radius: 4px;
 	margin-bottom: 26px;
-	padding-bottom: 20px
+	padding-bottom: 38px;
 }
 .aboutbox .aboutbox-header {
 	font-family: 'fira_sansbook';
@@ -40,9 +40,8 @@
 	font-weight: normal;
 	color: #3ba8c0;
 	border-bottom: 2px solid #3ba8c0;
-	margin-top: 0px;
-	margin-bottom: 23px;
-	padding: 13px 23px;
+	margin: 0 0 23px -1px;
+	padding: 13px 0 12px 23px;
 	display: inline-block;
 }
 .aboutbox-body {
@@ -52,7 +51,7 @@
 .image-wrap {
 	float: left;
 	margin-left: 55px;
-	margin-top: 18px;
+	margin-top: 11px;
 }
 .avatar-box {
 	width: 142px;
@@ -69,6 +68,8 @@
 	list-style: none;
 	width: 224px;
 	padding: 0;
+	margin-top: 4px;
+	margin-left: -1px;
 }
 .skills-item{
 	display:inline-block;
@@ -105,25 +106,25 @@
 }
 .list-info {
 	list-style: none;
-	margin-left: 125px;
-	margin-top: 0;
+	margin-left: 86px;
+	margin-top: -1px;
 }
 .list-info-item {
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 	position: relative;	
 }
 .tabular-header-text:before {
 	content: "";
 	display: inline-block;
 	position: absolute;
-    left: -69px;
-    top: 6px;
-    background: url(../img/spritesheet.png) no-repeat;
+  	background: url(../img/spritesheet.png) no-repeat;
 }
 .tabular-header-text.bag:before {
 	width: 36px;
     height: 34px;
     background-position: -461px -5px;
+    left: -67px;
+    top: 4px;
 }
 .tabular-header-text.hat:before {
     width: 42px;

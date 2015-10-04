@@ -1,9 +1,9 @@
 /* header */
 .header-block {
-	height: 119px;
+	height: 116px;
 	background: #eff3f7;
 	position: relative;
-	margin-bottom: 39px;
+	margin-bottom: 42px;
 }
 .header-container {
 	max-width: 1200px;
@@ -38,8 +38,8 @@
 }
 /* socials block */
 .socials {
-	margin: 0;
-	margin-top: 39px;
+	margin: 0px;
+	margin-top: 35px;
 	padding: 0;
 	min-width: 260px;
 	float: right;
@@ -49,7 +49,7 @@
 	display: inline-block;
 	height: 47px;
 	width: 47px;
-	margin-left: 19px;
+	margin-left: 20px;
 }
 .socials .socials-item:first-child {
 	margin-left: 0;

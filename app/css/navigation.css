@@ -1,11 +1,12 @@
 .sidebar {
 	width: 250px;
     float: left;
+    margin-left: 1px;
 }
 .navigation {
 	overflow: hidden;
 	background: #eff3f7;
-	margin-bottom: 26px;
+	margin-bottom: 24px;
     border-radius: 5px;
 }
 .navigation .navigation-list {
@@ -37,7 +38,7 @@
 	font-size: 20px;
 	text-decoration: none;
 	color: #959aa8;
-	margin-left: 16px;
+	margin-left: 17px;
 	padding: 20px 0px;
 }
 .navigation .navigation-link:hover {
@@ -75,8 +76,8 @@
 	font-family: 'fira_sansbook';
     color: #FBFCFD;
     font-size: 21px;
-    margin-left: 21px; 
-    padding-top: 6px; 
+    margin-left: 19px; 
+    padding-top: 7px; 
 }
 .contact .contact-link{
 	text-decoration: none;
@@ -84,13 +85,21 @@
 	font-family: 'fira_sansbook';
 	font-size: 17px;
 	color: #ffffff;
-	margin-left: 25px;
+	margin-left: 10px;
 	padding: 7px 5px;
-	text-align: center;
+	/* text-align: center; */
 }
-.contact .contact-link.phone{
-	margin-left: 25px;
-	padding: 7px 5px;
+.contact .contact-link.email {
+	margin-left: 36px;
+	padding: 8px 5px;
+}
+.contact .contact-link.phone {
+	margin-left: 79px;
+	padding: 8px 5px;
+}
+.contact .contact-link.skype {
+	margin-left: 77px;
+	padding: 6px 5px;
 }
 
 .contact .contact-link:hover{
@@ -99,28 +108,27 @@
 .contact .contact-link:before {
 	content: "";
 	display: inline-block;
+	position: absolute;
+	background: url(../img/spritesheet.png) no-repeat;
 }
 .contact .contact-link.email:before {
 	width: 21px;
 	height: 16px;
-	position: absolute;
-    left: 11px;
+	left: 11px;
     top: 12px;
-	background: url(../img/spritesheet.png) -655px -5px no-repeat; 
+	background-position: -655px -5px; 
 }
 .contact .contact-link.phone:before {
 	width: 19px;
     height: 21px;
-    position: absolute;
-    left: 42px;
-    top: 9px;
-	background: url(../img/spritesheet.png) -686px -5px no-repeat; 
+    left: 43px;
+    top: 10px;
+	background-position: -686px -5px; 
 }
 .contact .contact-link.skype:before {
 	width: 20px;
     height: 20px;
-    position: absolute;
-    left: 42px;
-    top: 9px;
-	background: url(../img/spritesheet.png) -715px -5px no-repeat; 
+    left: 43px;
+    top: 10px;
+	background-position: -715px -5px; 
 }						
