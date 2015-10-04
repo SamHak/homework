@@ -117,7 +117,7 @@
 	content: "";
 	display: inline-block;
 	position: absolute;
-  	background: url(../img/spritesheet.png) no-repeat;
+  	background: url(../img/sprite.png) no-repeat;
 }
 .tabular-header-text.bag:before {
 	width: 36px;

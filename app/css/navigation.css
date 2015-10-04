@@ -109,7 +109,7 @@
 	content: "";
 	display: inline-block;
 	position: absolute;
-	background: url(../img/spritesheet.png) no-repeat;
+	background: url(../img/sprite.png) no-repeat;
 }
 .contact .contact-link.email:before {
 	width: 21px;

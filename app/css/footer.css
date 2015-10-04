@@ -30,7 +30,7 @@
 	display: inline-block;
 	width: 20px;
 	height: 40px;
-	background: url(../img/spritesheet.png) -595px -5px no-repeat;
+	background: url(../img/sprite.png) -595px -5px no-repeat;
 	margin: 0;
     padding: 0px;
     position: absolute;
@@ -38,7 +38,7 @@
     top: 23px;
 }
 .lock-link:hover:before  {
-	background: url(../img/spritesheet.png) -625px -5px no-repeat;
+	background-position: -625px -5px;
 }
 .copyright{
 	padding-top: 30px;
