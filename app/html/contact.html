@@ -47,7 +47,6 @@
 	        </div>
 	    </header>
 <div class="page-content clearfix">
-	
 <!-- navigation -->
 		<aside class="sidebar">
 			<nav class="navigation clearfix">
@@ -71,6 +70,46 @@
 	    		</ul>
 	    	</div>
 		</aside>
+<!-- content -->
+		<div class="variable-content">
+			<section class="information">
+			<div class="information-header">
+				<h2 class="information-title">У вас интересный проект? Напишите мне</h2>
+			</div>
+			<div class="information-form-block clearfix">
+				<form class="body-form" name="info-fortm" method="post" action="">
+					<!-- user name -->
+					<label for="" class="label-form user-name clearfix">
+						<p class="inform-label-text name">Имя</p>
+						<input class="input imp-u-name" type="text" name="user-name" placeholder="Как к Вам обращаться">
+					</label>
+					<!-- user email -->
+					<label for="" class="label-form user-email clearfix">
+						<p class="inform-label-text email">Email</p>
+						<input class="input imp-u-email" type="text" name="email"placeholder="Куда мне писать">
+					</label>
+					<!-- message -->
+					<label for="" class="label-form user-message clearfix">
+						<p class="inform-label-text message">Кратко о себе</p>
+						<textarea class="input textarea" name="message" placeholder="Кратко в чем суть"></textarea>
+					</label>
+					<!-- capcha -->
+					<label for="" class="label captcha clearfix">
+						<p class="inform-label-text cap">Введите код, указанный на картинке</p>
+					</label>
+						<img class="captcha-img" src="../img/captcha.png" height="46" width="146" alt="captcha">
+					<label class="label-form captcha-code clearfix">
+						<input class="input i-captcha" value="" type="text" name="captcha-code" placeholder="Введите код">
+					</label>
+					<!-- buttons form -->
+					<div class="clearfix">
+						<input class="button send" type="submit" name="send" value="Отправить">
+						<input class="button clear" type="reset" name="clear" value="Очистить">
+					</div>
+				</form>
+			</div>
+			</section>
+		</div>
 	</div>
 </div>
 <!-- footer -->
