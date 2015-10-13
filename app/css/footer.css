@@ -1,10 +1,11 @@
 /* footer */
 .footer-block {
 	height: 80px;
+	margin-top: -80px;
 	background: #eff3f7;
 	font-family: 'fira_sanslight';
 	color: #4a545d;
-	margin-top: -80px;
+	
 }
 .footer-container {
 	max-width: 970px;

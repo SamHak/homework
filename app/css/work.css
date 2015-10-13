@@ -1,0 +1,43 @@
+.port-list {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+.port-item {
+	display: inline-block;
+	width: 212px;
+	margin: 0 0 20px 0;
+}
+.port-item .port-box {
+	position: relative;
+    margin: 15px 15px;
+    width: 179px;
+    height: 125px;
+    border: 2px solid #3ba8c0;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #4191bb;
+}
+ .port-box-load {
+	position: relative;
+    margin: 15px 15px;
+    width: 179px;
+    height: 125px;
+    border: 2px dashed #3ba8c0;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #edf8fc;
+    transition:0.5s;
+}
+/* .text-port {
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 17px;
+    color: #D8D8D8;
+    border-radius: 5px;
+    padding: 6px;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+} */
+

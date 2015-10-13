@@ -4,6 +4,7 @@
 @import url("footer.css");
 @import url("login.css");
 @import url("contact.css");
+@import url("work.css");
 
 /* global */
 html {
@@ -19,7 +20,8 @@ body {
 	position: relative;
 	min-height: 100%;
 	min-width: 970px;
-	height: auto !important; 
+	height: auto !important;
+	overflow: hidden; 
 }
 .wrap-site:after {
 	content: "";

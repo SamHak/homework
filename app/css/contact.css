@@ -75,6 +75,7 @@
 .input::-webkit-input-placeholder {
   color: #48cbe8;
   font-size: 15px;
+  padding-left: 10px;
 }
 .captcha-img {
   float: left;

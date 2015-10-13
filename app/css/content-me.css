@@ -26,7 +26,6 @@
 	overflow: hidden;
 	max-width: 218px;
 }
-
 /* VARIABLE CONTENT */
 .aboutbox {
 	background: #eff3f7;
@@ -35,14 +34,20 @@
 	padding-bottom: 38px;
 }
 .aboutbox .aboutbox-header {
+	line-height: 70px;
+	border-bottom: 2px solid #3ba8c0;
+	width: 350px;
+	text-indent: 21px;
+	margin: 0px;
+	color: #3ba8c0;
 	font-family: 'fira_sansbook';
 	font-size: 27px;
-	font-weight: normal;
-	color: #3ba8c0;
-	border-bottom: 2px solid #3ba8c0;
-	margin: 0 0 23px -1px;
-	padding: 13px 0 12px 23px;
-	display: inline-block;
+    font-weight: normal;
+   	font-style: normal;
+   	margin-bottom: 20px;
+}
+.aboutbox-header .header-zx {
+	width: 250px;
 }
 .aboutbox-body {
 	padding-bottom: 40px;
@@ -115,30 +120,27 @@
 }
 .tabular-header-text:before {
 	content: "";
-	display: inline-block;
+	display: block;
+	background: url(../img/sprite.png) no-repeat;
 	position: absolute;
-  	background: url(../img/sprite.png) no-repeat;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%); 
+	left: -43px;
 }
 .tabular-header-text.bag:before {
 	width: 36px;
     height: 34px;
     background-position: -461px -5px;
-    left: -67px;
-    top: 4px;
 }
 .tabular-header-text.hat:before {
     width: 42px;
     height: 23px;
     background-position: -507px -5px;
-    left: -69px;
-    top: 8px;
 }
 .tabular-header-text.list:before {
 	width: 26px;
     height: 32px;
     background-position: -559px -5px;
-    left: -60px;
-    top: 6px;
 }
 
 

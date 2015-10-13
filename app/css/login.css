@@ -1,8 +1,14 @@
+.wrap-form {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
+}
 .login-panel {
 	width: 590px;
 	background: #eff3f7;
-    transform: translateY(50%);
-    margin: auto;
+    margin: 0 auto;
     height: 500px;
     box-shadow: 0 3px 8px -3px;
 }
@@ -17,7 +23,7 @@
 .login-title {
 	line-height: 92px;
 	text-align: center;
-	margin: 0px;
+	margin: 0;
 	color:#F9FAFB;
 	font-family: 'fira_sansbook';
 	font-size: 40px;
@@ -44,7 +50,7 @@
 .form-title.l1 {
 	margin-top: -15px;
 }
-.input {
+.input-login {
 	width: 403px;
 	height: 58px;
 	border: 1px solid #48cbe8;
@@ -53,7 +59,7 @@
 	color: #48cbe8;
 	margin-left: -1px;
 }
-.input::-webkit-input-placeholder {
+.input-login::-webkit-input-placeholder {
 	color: #48cbe8;
 	font-size: 17px;
 }

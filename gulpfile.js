@@ -13,6 +13,7 @@ gulp.task('server', function () {
 gulp.task('watch', function () {
 	gulp.watch([
 		'app/*.html',
+		'app/html/**/*.html',
 		'app/js/**/*.js',
 		'app/css/**/*.css',
 	]) .on ('change', browsersync.reload);
