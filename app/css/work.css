@@ -7,6 +7,7 @@
 	display: inline-block;
 	width: 212px;
 	margin: 0 0 20px 0;
+    vertical-align: top;
 }
 .img-box {
 	position: relative;
@@ -34,16 +35,12 @@
 .img-4 {
     background-image: url(../img/port-4.png);
 }
- .port-box-load {
-	position: relative;
-    margin: 15px 15px;
-    width: 179px;
-    height: 125px;
+.img-box.ld {
     border: 2px dashed #3ba8c0;
-    border-radius: 5px;
-    overflow: hidden;
     background: #edf8fc;
-    transition:0.5s;
+}
+.img-box.ld:hover {
+    border: 2px dashed #58697a;
 }
 .img-info {
     position: absolute;
@@ -89,4 +86,38 @@
     -ms-transform: scale(1);
     transform: scale(1);
     opacity: 1;
+}
+.address-block {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+}
+.address-link {
+    font-family: 'fira_sansbook';
+    color: #3ba8c0;
+    text-decoration: none;
+}
+.port-text {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'fira_sansbook';
+    text-align: center;
+    line-height: 1.2;
+    color: #4a545d
+}
+.load-img {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.text-load {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 13px;
+    font-weight: bold;
+    width: 250px;
+    font-family: 'fira_sansbook';
+    color: #3BA8C0;
 }
