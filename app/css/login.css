@@ -1,16 +1,12 @@
-.wrap-form {
-	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(50%);
-	-ms-transform: translateY(50%);
-	transform: translateY(50%);
-}
 .login-panel {
 	width: 590px;
 	background: #eff3f7;
     margin: 0 auto;
     height: 500px;
     box-shadow: 0 3px 8px -3px;
+	position: relative;
+	-moz-transform: translateY(50%);
+	-webkit-transform: translateY(50%);
 }
 /* header */
 .login-header {

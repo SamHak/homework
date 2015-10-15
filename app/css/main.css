@@ -21,7 +21,7 @@ body {
 	min-height: 100%;
 	min-width: 970px;
 	height: auto !important;
-	overflow: hidden; 
+	overflow: hidden;
 }
 .wrap-site:after {
 	content: "";
@@ -31,7 +31,7 @@ body {
 .page-content {
 	width: 960px;
 	margin: 0 auto;
-	margin-bottom: 10px;
+
 }
 .variable-content{
 	width: 650px;
